@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Karla Lizcano - Frontend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <div class="particles">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+        <div class="particle particle-5"></div>
+    </div>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">KL</div>
+            <div class="nav-links">
+                <a href="#hero">Inicio</a>
+                <a href="#about">Sobre Mí</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#projects">Proyectos</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1><span id="typed"></span></h1>
+            <p>Construyendo experiencias digitales excepcionales con código limpio y diseño innovador</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">
+                    <span class="btn-icon">🚀</span>
+                    Ver Proyectos
+                </a>
+                <a href="#about" class="btn-secondary">
+                    <span class="btn-icon">👤</span>
+                    Conoce más
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Sobre Mí</h2>
+            <div class="about-grid">
+                <div class="about-image slide-in-left">
+                    <img src="./img/Imagen de WhatsApp 2025-07-15 a las 02.04.47_d4b33dd9.jpg" alt="FotoKl" class="profile-img"/>
+                </div>
+                <div class="about-text slide-in-right">
+                    <p>Soy desarrolladora frontend con una pasión por crear interfaces de usuario extraordinarias que combinan funcionalidad y estética. Me especializo en tecnologías modernas como HTML5, CSS3 y JavaScript ES6+, con experiencia en frameworks y librerías actuales.</p>
+                    <p>Mi enfoque se centra en la experiencia del usuario, la accesibilidad web y el rendimiento, asegurando que cada proyecto no solo sea visualmente impactante, sino también inclusivo y optimizado para todos los dispositivos.</p>
+                    <ul>
+                        <li>✨ HTML5 · CSS3 · JavaScript ES6+</li>
+                        <li>🐍 Python · Control de versiones</li>
+                        <li>🚀 Responsive Design · UI/UX</li>
+                        <li>⚡ Optimización · Accesibilidad</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tech-stack fade-in">
+                <h3>Tecnologias empleadas</h3>
+                <div class="tech-icon tech-html">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/>
+                    </svg>
+                </div>
+                <div class="tech-icon tech-css">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/>
+                    </svg>
+                </div>
+                <div class="tech-icon tech-js">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/>
+                    </svg>
+                </div>
+                <div class="tech-icon tech-python">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.26-.21.27-.25.21-.26.13-.21.07-.15.03-.26.01-.49-.05-.21-.07-.17-.09-.14-.09-.1-.08-.08-.08-.05-.09-.03-.1-.01-.13.01-.14.02-.12.03-.1.05-.09.08-.07.09-.06.1-.04.12-.03.13-.01.14.01.15.03.15.04.14.05.13.06.12.07.1.07.1.08.08.08.08.09.07.09.06.1.05.1.05.11.04.11.04.12.03.12.03.13.02.13.02.14.01.15.01.15-.01.15-.01.16-.02.15-.02.15-.03.14-.03.14-.04.13-.04.12-.05.12-.05.11-.06.11-.06.1-.07.1-.07.09-.08.09-.08.08-.09.08-.09.07-.1.07-.1.06-.11.06-.11.05L12 21.1l-.69-.17-.59-.21-.48-.26-.38-.3-.29-.33-.21-.36-.15-.38-.1-.4-.05-.42-.02-.44.04-.46.06-.47.08-.47.1-.47.12-.46.14-.45.16-.44.18-.43.2-.42.22-.4.24-.39.26-.37.28-.36.3-.34.32-.32.34-.3.36-.28.38-.26.4-.24.42-.22.44-.2.46-.18.48-.16.5-.14.52-.12.54-.1.56-.08.58-.06.6-.04.62-.02.64.01.66.03.68.05.7.07.72.09.74.11.76.13.78.15.8.17.82.19.84.21.86.23.88.25.9.27.92.29.94.31.96.33.98.35 1 .37 1.02.39 1.04.41 1.06.43 1.08.45 1.1.47 1.12.49 1.14.51 1.16.53 1.18.55 1.2.57 1.22.59 1.24.61 1.26.63 1.28.65 1.3.67 1.32.69 1.34.71 1.36.73 1.38.75 1.4.77 1.42.79 1.44.81 1.46.83 1.48.85 1.5.87 1.52.89 1.54.91 1.56.93 1.58.95 1.6.97 1.62.99 1.64 1.01 1.66 1.03 1.68 1.05 1.7 1.07 1.72 1.09 1.74 1.11 1.76 1.13 1.78 1.15 1.8 1.17 1.82 1.19 1.84 1.21 1.86 1.23 1.88 1.25 1.9 1.27 1.92 1.29 1.94 1.31 1.96 1.33 1.98 1.35 2 1.37"/>
+                    </svg>
+                </div>
+                <div class="tech-icon tech-react">⚛</div>
+                <div class="tech-icon tech-git">GIT</div>
+                <div class="tech-icon tech-github">🐙</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Habilidades Técnicas</h2>
+            <div class="skills-container">
+                <div class="skill-box scale-in">
+                    <i class="fab fa-js-square"></i>
+                    <h4>JavaScript</h4>
+                    <span>ES6+ · TypeScript · Programación funcional · Async/Await</span>
+                </div>
+                <div class="skill-box scale-in">
+                    <i class="fab fa-python"></i>
+                    <h4>Python</h4>
+                    <span>Sintaxis avanzada · Estructuras de datos · Algoritmos</span>
+                </div>
+                <div class="skill-box scale-in">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML5</h4>
+                    <span>Semántica · Accesibilidad · Formularios · SEO</span>
+                </div>
+                <div class="skill-box scale-in">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS3</h4>
+                    <span>Flexbox · Grid · Animaciones · Responsive Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Proyectos Destacados</h2>
+            <div class="projects-container">
+                <div class="project-card fade-in">
+                    <img src="./img/Captura de pantalla 2025-07-15 034254.png" alt="LuxTime - Tienda de Relojes">
+                    <div class="project-info">
+                        <h3>LuxTime Store</h3>
+                        <p>Plataforma e-commerce premium para venta de relojes de lujo con diseño moderno y experiencia de usuario optimizada.</p>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Responsive</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="./img/Captura de pantalla 2025-07-15 080417.png" alt="Sistema de Autenticación">
+                    <div class="project-info">
+                        <h3>Login</h3>
+                        <p>Sistema de autenticación avanzado con validaciones en tiempo real, recuperación de contraseñas y verificación de seguridad.</p>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="./img/Captura de pantalla 2025-07-15 080533.png" alt="Biblioteca Digital">
+                    <div class="project-info">
+                        <h3>BiblioTech API</h3>
+                        <p>Biblioteca digital inteligente que permite buscar libros por categorías utilizando la Open Library API con interfaz intuitiva.</p>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-icons">
+                <a href="https://github.com/Karla09321?tab=repositories" target="_blank" aria-label="GitHub">
+                    <span class="footer-icon"><i class="fi fi-brands-github"></i></span>
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank" aria-label="WhatsApp">
+                    <span class="footer-icon"><i class="fi fi-brands-whatsapp"></i></span>
+                </a>
+                <a href="tel:+573042575600" aria-label="Teléfono">
+                    <span class="footer-icon"><i class="fi fi-sr-phone-call"></i></span>
+                </a>
+            </div>
+            <p>© 2025 Karla Lizcano • Diseñado y desarrollado con <span class="heart">💜</span> y mucho café</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
